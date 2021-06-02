@@ -75,5 +75,10 @@ class DetailAnswersController: UIViewController {
             break
         }
     }
+
+    @IBAction func hideDetailScene() -> Void {
+        dismiss(animated: true, completion: nil)
+    }
 }
+
 

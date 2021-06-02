@@ -7,7 +7,7 @@
 
 import UIKit
 
-class StartSceneController: UIViewController {
+class StartScene: UIViewController {
     
     @IBOutlet var startButton: UIButton!
     

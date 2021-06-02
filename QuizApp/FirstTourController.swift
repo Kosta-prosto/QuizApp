@@ -17,12 +17,12 @@ class FirstTourController: UIViewController {
     @IBOutlet var flagImage: UIImageView!
     @IBOutlet var buttonsForAnswer: [UIButton]!
     @IBOutlet var nextTourButton: UIButton!
-    @IBOutlet var detailAnswersButton: UIBarButtonItem!
+    
     
     let questionInTour = 6
     let questions = Question.getQuestions().shuffled()
   
-
+    lazy var detailVC: DetailAnswersController = getDetailVC()
     var selectedQuestions: [Question] = []
     var score = 0
     var currentQuestion = 0
@@ -42,20 +42,14 @@ class FirstTourController: UIViewController {
         askQuestion()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let detailVC = segue.destination as? DetailAnswersController else { return }
-        detailVC.selectedQuestions = self.selectedQuestions
-        detailVC.currentQuestion = self.currentQuestion
-        detailVC.score = self.score
-    }
+ 
     
     private func askQuestion() -> Void {
         
         titleNavigation.title = "Вопрос № \(currentQuestion)"
         flagImage.isHidden = true
-        let question = questions[(currentQuestion - 1)]
+        let question = questions[currentQuestion - 1]
         selectedQuestions.append(question)
-        print("Вопрос '\(question.text)' помещен в массив под индексом \(currentQuestion - 1)")
         questionLabel.text = question.text
         if questionLabel.text == "Какому государству принадлежит данный флаг?" {
             flagImage.image = UIImage(named: "Флаг")
@@ -87,9 +81,8 @@ class FirstTourController: UIViewController {
         }
     }
     
-    private func result() -> Void {
+    private func textForResult() -> Void {
         if currentQuestion == questionInTour {
-            detailAnswersButton.title = "Ответы"
             hideSubviews()
             currentQuestion = 0
             var endingOfTheWord = ""
@@ -113,11 +106,29 @@ class FirstTourController: UIViewController {
         }
     }
     
-    @IBAction func chooseAnswer(_ sender: UIButton) {
-        checkAnswer(userAnswer: sender, answers: selectedQuestions[currentQuestion - 1].answers)
-        result()
+    private func getDetailVC() -> DetailAnswersController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "DetailAnswersVC")
+        return vc as! DetailAnswersController
     }
     
+    @IBAction func chooseAnswer(_ sender: UIButton) {
+        checkAnswer(userAnswer: sender, answers: selectedQuestions[currentQuestion - 1].answers)
+        textForResult()
+    }
+    
+    @IBAction func showDetailAnswersVC() {
+        present(detailVC, animated: true, completion: nil)
+        detailVC.selectedQuestions = selectedQuestions
+        detailVC.currentQuestion = self.currentQuestion
+    }
+    
+    @IBAction func goToSecondTour() {
+        self.navigationItem.backBarButtonItem?.isEnabled = true
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let secondTourVC = storyboard.instantiateViewController(identifier: "secondTour") as? SecondTourController else { return }
+        navigationController?.pushViewController(secondTourVC, animated: true)
+    }
     
     
     

@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		786F82BC263C9155008ECAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82BB263C9155008ECAF9 /* AppDelegate.swift */; };
 		786F82BE263C9155008ECAF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82BD263C9155008ECAF9 /* SceneDelegate.swift */; };
-		786F82C0263C9155008ECAF9 /* StartSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82BF263C9155008ECAF9 /* StartSceneController.swift */; };
+		786F82C0263C9155008ECAF9 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82BF263C9155008ECAF9 /* StartScene.swift */; };
 		786F82C3263C9155008ECAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F82C1263C9155008ECAF9 /* Main.storyboard */; };
 		786F82C5263C9157008ECAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786F82C4263C9157008ECAF9 /* Assets.xcassets */; };
 		786F82C8263C9157008ECAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F82C6263C9157008ECAF9 /* LaunchScreen.storyboard */; };
 		786F82D1263C9D5F008ECAF9 /* FirstTourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82D0263C9D5F008ECAF9 /* FirstTourController.swift */; };
 		786F82D6263CAD13008ECAF9 /* FirstTourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F82D5263CAD13008ECAF9 /* FirstTourModel.swift */; };
+		78CED95A265EBCEA0041F407 /* SecondTourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CED959265EBCEA0041F407 /* SecondTourController.swift */; };
 		78E0930426418A97006C37BE /* DetailAnswersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0930326418A97006C37BE /* DetailAnswersController.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +23,14 @@
 		786F82B8263C9155008ECAF9 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786F82BB263C9155008ECAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		786F82BD263C9155008ECAF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		786F82BF263C9155008ECAF9 /* StartSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneController.swift; sourceTree = "<group>"; };
+		786F82BF263C9155008ECAF9 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		786F82C2263C9155008ECAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		786F82C4263C9157008ECAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786F82C7263C9157008ECAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		786F82C9263C9157008ECAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786F82D0263C9D5F008ECAF9 /* FirstTourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTourController.swift; sourceTree = "<group>"; };
 		786F82D5263CAD13008ECAF9 /* FirstTourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTourModel.swift; sourceTree = "<group>"; };
+		78CED959265EBCEA0041F407 /* SecondTourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTourController.swift; sourceTree = "<group>"; };
 		78E0930326418A97006C37BE /* DetailAnswersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnswersController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +66,7 @@
 			children = (
 				786F82BB263C9155008ECAF9 /* AppDelegate.swift */,
 				786F82BD263C9155008ECAF9 /* SceneDelegate.swift */,
-				786F82BF263C9155008ECAF9 /* StartSceneController.swift */,
+				786F82BF263C9155008ECAF9 /* StartScene.swift */,
 				786F82D0263C9D5F008ECAF9 /* FirstTourController.swift */,
 				786F82C1263C9155008ECAF9 /* Main.storyboard */,
 				786F82C4263C9157008ECAF9 /* Assets.xcassets */,
@@ -72,6 +74,7 @@
 				786F82C9263C9157008ECAF9 /* Info.plist */,
 				786F82D5263CAD13008ECAF9 /* FirstTourModel.swift */,
 				78E0930326418A97006C37BE /* DetailAnswersController.swift */,
+				78CED959265EBCEA0041F407 /* SecondTourController.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -147,7 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				786F82D6263CAD13008ECAF9 /* FirstTourModel.swift in Sources */,
-				786F82C0263C9155008ECAF9 /* StartSceneController.swift in Sources */,
+				78CED95A265EBCEA0041F407 /* SecondTourController.swift in Sources */,
+				786F82C0263C9155008ECAF9 /* StartScene.swift in Sources */,
 				786F82BC263C9155008ECAF9 /* AppDelegate.swift in Sources */,
 				786F82D1263C9D5F008ECAF9 /* FirstTourController.swift in Sources */,
 				78E0930426418A97006C37BE /* DetailAnswersController.swift in Sources */,
