@@ -1,0 +1,14 @@
+{
+    "teams": [
+        {
+            "name": "Atletico M",
+            "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Реал%20Мадрид.png,
+            "id": 1
+        },
+        {
+            "name": "Real Madrid",
+            "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Реал%20Мадрид.png",
+            "id": 2
+        }
+    ]
+}
