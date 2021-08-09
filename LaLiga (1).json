@@ -1,0 +1,104 @@
+{
+    "teams": [
+        {
+            "name": "Atletico M",
+            "logo": "https://disk.yandex.ru/i/ZlnnE61LA2V84w",
+            "id": 1
+        },
+        {
+            "name": "Real Madrid",
+            "logo": "https://disk.yandex.ru/i/6TKHGPDshJZVsQ",
+            "id": 2
+        },
+        {
+            "name": "Barcelona",
+            "logo": "https://disk.yandex.ru/i/8lftpnbgUtCv4A",
+            "id": 3
+        },
+        {
+            "name": "Sevilla",
+            "logo": "https://disk.yandex.ru/i/cKDZmZl3zGmEKg",
+            "id": 4
+        },
+        {
+            "name": "Real Sociedad",
+            "logo": "https://disk.yandex.ru/i/XYNbZdnUvl9crg",
+            "id": 5
+        },
+        {
+            "name": "Betis",
+            "logo": "https://disk.yandex.ru/i/JgJYaekciBaMrA",
+            "id": 6
+        },
+        {
+            "name": "Villarreal",
+            "logo": "https://disk.yandex.ru/i/9bgjgheoE2JzZw",
+            "id": 7
+        },
+        {
+            "name": "Celta",
+            "logo": "https://disk.yandex.ru/i/6UWml3U3BAtIGg",
+            "id": 8
+        },
+        {
+            "name": "Granada",
+            "logo": "https://disk.yandex.ru/i/yS3eNa3VqMXgkA",
+            "id": 9
+        },
+        {
+            "name": "Athletic B",
+            "logo": "https://disk.yandex.ru/i/CXDP5r_OB6D6gw",
+            "id": 10
+        },
+        {
+            "name": "Osasuna",
+            "logo": "https://disk.yandex.ru/i/G3Wcq5GBxTojZw",
+            "id": 11
+        },
+        {
+            "nameClub": "Cadiz",
+            "logo": "https://disk.yandex.ru/i/9lQH6dNxVeMDdg",
+            "id": 12
+        },
+        {
+            "name": "Valencia",
+            "logo": "https://disk.yandex.ru/i/fvrMEgfXs4lP_g",
+            "id": 13
+        },
+        {
+            "name": "Levante",
+            "logo": "https://disk.yandex.ru/d/5xQVl7bpxKo87A",
+            "id": 14
+        },
+        {
+            "name": "Getafe",
+            "logo": "https://disk.yandex.ru/i/CH7mwoteS5mbfw",
+            "id": 15
+        },
+        {
+            "name": "Alaves",
+            "logo": "https://disk.yandex.ru/i/IjqrYHO71hwv8Q",
+            "id": "6
+        },
+        {
+            "name": "Elche",
+            "logo": "https://disk.yandex.ru/i/HUW41E6xEbpHlw",
+            "id": 17
+        },
+        {
+            "name": "Huesca",
+            "logo": "https://disk.yandex.ru/i/1uspeIok8hUrYg",
+            "id": 18
+        },
+        {
+            "name": "Valladolid",
+            "logo": "https://disk.yandex.ru/i/YV2fReSLbxRQ7A",
+            "id": 19
+        },
+        {
+            "name": "Eibar",
+            "logo": "https://disk.yandex.ru/i/ELlHTDthuZ61rg",
+            "id": 20
+        }
+    ]
+}
