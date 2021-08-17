@@ -1,14 +1,12 @@
-{
-    "teams": [
-        {
-            "name": "Atletico M",
-            "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/atletico.png",
-            "id": 1
-        },
-        {
-            "name": "Real Madrid",
-            "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/realMadrid.png",
-            "id": 2
-        }
-    ]
-}
+[
+    {
+        "name": "Atletico M",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/atletico.png",
+        "id": 1
+    },
+    {
+        "name": "Real Madrid",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/realMadrid.png",
+        "id": 2
+    }
+]
