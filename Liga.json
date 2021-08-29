@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Atletico M",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/AtleticoM.png",
+        "id": 1
+    },
+    {
+        "name": "Real Madrid",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/RealMadrid.png",
+        "id": 2
+    },
+    {
+        "name": "Barcelona",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Barcelona.png",
+        "id": 3
+    },
+    {
+        "name": "Sevilla",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Sevilla.png",
+        "id": 4
+    }
+]
+
