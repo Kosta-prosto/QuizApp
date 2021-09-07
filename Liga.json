@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Atletico M",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/AtleticoM.png",
+        "id": 1
+    },
+    {
+        "name": "Real Madrid",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/RealMadrid.png",
+        "id": 2
+    },
+    {
+        "name": "Barcelona",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Barcelona.png",
+        "id": 3
+    },
+    {
+        "name": "Sevilla",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Sevilla.png",
+        "id": 4
+    },
+    {
+        "name": "Real Sociedad",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/RealSociedad.png",
+        "id": 5
+    },
+    {
+        "name": "Betis",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Betis.png",
+        "id": 6
+    },
+    {
+        "name": "Villarreal",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Villarreal.png",
+        "id": 7
+    },
+    {
+        "name": "Celta",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Celta.png",
+        "id": 8
+    },
+    {
+        "name": "Granada",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Granada.png",
+        "id": 9
+    },
+    {
+        "name": "AthleticB",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/AthleticB.png",
+        "id": 10
+    },
+    {
+        "name": "Osasuna",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Osasuna.png",
+        "id": 11
+    },
+    {
+        "name": "Cadiz",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Cadiz.png",
+        "id": 12
+    },
+    {
+        "name": "Valencia",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Valencia.png",
+        "id": 13
+    },
+    {
+        "name": "Levante",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Levante.png",
+        "id": 14
+    },
+    {
+        "name": "Getafe",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Getafe.png",
+        "id": 15
+    },
+    {
+        "name": "Alaves",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Alaves.png",
+        "id": 16
+    },
+    {
+        "name": "Elche",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Elche.png",
+        "id": 17
+    },
+    {
+        "name": "Huesca",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Huesca.png",
+        "id": 18
+    },
+    {
+        "name": "Valladolid",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Valladolid.png",
+        "id": 19
+    },
+    {
+        "name": "Eibar",
+        "logo": "https://raw.githubusercontent.com/Kosta-prosto/QuizApp/main/Eibar.png",
+        "id": 20
+    }
+]
+
